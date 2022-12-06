@@ -28,26 +28,3 @@
       "updatedAt": "2022-08-01T14:30:41.203653"
     }
     ```
-
-  - POST /login
-
-    Objetivo: Realizar o login de uma pessoa.
-
-    Requisitos:
-      - O token deve ser retornado no padrão Bearer.
-
-
-    Request:
-    ```json
-    {
-      "document": "56967915576",
-      "password": "senhaforte"
-    }
-    ```
-
-    Response:
-    ```json
-    {
-      "token": "Bearer "
-    }
-    ```
